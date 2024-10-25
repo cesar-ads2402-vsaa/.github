@@ -4,6 +4,8 @@ Bem-vindo à organização **Projeto Fundamentos** criada para desenvolvimento d
 ## Visão Geral
 O **Projeto CRUD** faz parte da grade de Fundamentos da Computação e visa proporcionar um ambiente colaborativo para que estudantes possam desenvolver suas habilidades de programação e resolução de problemas. Através do trabalho em equipe, buscamos implementar soluções que envolvam lógica, estruturas de dados, algoritmos e outras áreas fundamentais da computação.
 
+## Progresso
+Para verificar nosso progresso no projeto, basta olhar nossas [milestones](https://github.com/Projeto-Fundamentos/projeto-crud/milestones), ou nossas [issues](https://github.com/Projeto-Fundamentos/projeto-crud/issues).
 
 ## Objetivos
 - Aplicar os conceitos teóricos da disciplina em projetos práticos.
@@ -38,21 +40,3 @@ O projeto segue uma estrutura organizada que inclui:
 
 ## Contato
 Para dúvidas, sugestões ou qualquer outra questão, entre em contato com os membros do grupo ou utilize a aba de Issues para reportar problemas.
-
-
-* [CRUD Funcionários](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/1) - 0/4 issues closed
-* [CRUD Clientes](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/2) - 0/4 issues closed
-* [CRUD Pets](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/3) - 0/4 issues closed
-* [CRUD Serviços](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/4) - 0/4 issues closed
-* [CRUD Produtos](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/5) - 0/4 issues closed
-
-
-
-## Milestones
-
-* [CRUD Funcionários](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/1) - 0/4 issues closed
-* [CRUD Clientes](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/2) - 0/4 issues closed
-* [CRUD Pets](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/3) - 0/4 issues closed
-* [CRUD Serviços](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/4) - 0/4 issues closed
-* [CRUD Produtos](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/5) - 0/4 issues closed
-
