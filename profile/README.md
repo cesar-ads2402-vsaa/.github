@@ -4,6 +4,12 @@ Bem-vindo à organização **Projeto Fundamentos** criada para desenvolvimento d
 ## Visão Geral
 O **Projeto CRUD** faz parte da grade de Fundamentos da Computação e visa proporcionar um ambiente colaborativo para que estudantes possam desenvolver suas habilidades de programação e resolução de problemas. Através do trabalho em equipe, buscamos implementar soluções que envolvam lógica, estruturas de dados, algoritmos e outras áreas fundamentais da computação.
 
+## Milestones
+Aqui estão as milestones do projeto e o status de cada uma delas:
+<!-- A seção abaixo será preenchida automaticamente pelo workflow -->
+<!-- As informações serão atualizadas a cada 6 horas ou quando o workflow for executado manualmente -->
+
+
 ## Objetivos
 - Aplicar os conceitos teóricos da disciplina em projetos práticos.
 
