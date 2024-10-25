@@ -1,0 +1,35 @@
+name: Update Milestones on README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" 
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Fetch Milestones Data
+        env:
+          REPO_NAME: "projeto-crud"
+          ORG_NAME: "Projeto-Fundamentos"
+        run: |
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               "https://api.github.com/repos/$ORG_NAME/$REPO_NAME/milestones" \
+               -o milestones.json
+
+          MILESTONE_DATA=$(jq -r '.[] | "* [" + .title + "](" + .html_url + ") - " + (.closed_issues | tostring) + "/" + (.open_issues + .closed_issues | tostring) + " issues closed"' milestones.json)
+          echo -e "## Project Milestones\n\n$MILESTONE_DATA" > NEW_README.md
+          cp README.md README_backup.md
+          cp NEW_README.md README.md
+          
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update milestones progress in README"
+          git push
