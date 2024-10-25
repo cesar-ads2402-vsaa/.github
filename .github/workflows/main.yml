@@ -29,13 +29,13 @@ jobs:
           if [ ! -f profile/README.md ]; then
             echo -e "# Projeto Fundamentos - CESAR School\n\n## Visão Geral\n\n## Milestones\n\n$MILESTONE_DATA\n" > profile/README.md
           else
-            # Remove a seção existente "## Milestones" se houver
+            # Remove a seção existente "## Milestones" e a seguinte linha em branco
             if grep -q "## Milestones" profile/README.md; then
               sed -i '/## Milestones/,/^$/d' profile/README.md
             fi
 
-            # Adiciona a nova seção de milestones após "## Visão Geral"
-            echo -e "\n\n## Milestones\n\n$MILESTONE_DATA\n" >> profile/README.md
+            # Adiciona a nova seção de milestones ao README
+            echo -e "\n## Milestones\n\n$MILESTONE_DATA\n" >> profile/README.md
           fi
           
       - name: Commit and Push Changes
