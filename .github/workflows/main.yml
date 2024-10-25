@@ -26,21 +26,21 @@ jobs:
           MILESTONE_DATA=$(jq -r '.[] | "* [" + .title + "](" + .html_url + ") - " + (.closed_issues | tostring) + "/" + (.open_issues + .closed_issues | tostring) + " issues closed"' milestones.json)
 
           # Check if the "## Milestones" section already exists
-          if grep -q "## Milestones" README.md; then
+          if grep -q "## Milestones" profile/README.md; then
               # Remove the existing section
-              sed -i '/## Milestones/,/^$/d' README.md
+              sed -i '/## Milestones/,/^$/d' profile/README.md
           fi
           
           # Insert the new Milestones section after "## Visão Geral"
           sed -i "/## Visão Geral/a\\
           ## Milestones\\
           \\n$MILESTONE_DATA\\
-          " README.md
+          " profile/README.md
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add README.md
+          git add profile/README.md
           git commit -m "Update milestones progress in README"
           git push
