@@ -56,3 +56,12 @@ Para dúvidas, sugestões ou qualquer outra questão, entre em contato com os me
 * [CRUD Serviços](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/4) - 0/4 issues closed
 * [CRUD Produtos](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/5) - 0/4 issues closed
 
+
+## Milestones
+
+* [CRUD Funcionários](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/1) - 0/4 issues closed
+* [CRUD Clientes](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/2) - 0/4 issues closed
+* [CRUD Pets](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/3) - 0/4 issues closed
+* [CRUD Serviços](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/4) - 0/4 issues closed
+* [CRUD Produtos](https://github.com/Projeto-Fundamentos/projeto-crud/milestone/5) - 0/4 issues closed
+
