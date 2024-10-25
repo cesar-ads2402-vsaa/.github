@@ -2,8 +2,8 @@ name: Update Milestones on README
 
 on:
   schedule:
-    - cron: "0 */6 * * *" 
-  workflow_dispatch:
+    - cron: "0 */6 * * *"  # Executa a cada 6 horas
+  workflow_dispatch:  # Permite executar manualmente o workflow
 
 jobs:
   update-readme:
@@ -21,10 +21,16 @@ jobs:
                "https://api.github.com/repos/$ORG_NAME/$REPO_NAME/milestones" \
                -o milestones.json
 
+          # Formatar os dados dos milestones
           MILESTONE_DATA=$(jq -r '.[] | "* [" + .title + "](" + .html_url + ") - " + (.closed_issues | tostring) + "/" + (.open_issues + .closed_issues | tostring) + " issues closed"' milestones.json)
-          echo -e "## Project Milestones\n\n$MILESTONE_DATA" > NEW_README.md
+          
+          # Criar ou atualizar o README com os dados dos milestones
+          echo -e "## Milestones\n\n$MILESTONE_DATA\n" > NEW_README.md
+          # Criar um backup do README atual
           cp README.md README_backup.md
-          cp NEW_README.md README.md
+          # Concatenar o conteúdo novo ao README existente
+          cat NEW_README.md README.md > README_TEMP.md
+          mv README_TEMP.md README.md
           
       - name: Commit and Push Changes
         run: |
