@@ -12,8 +12,7 @@ Este espaço reúne os projetos desenvolvidos por estudantes do curso de **Anál
 - Demonstrar a aplicação prática dos conhecimentos adquiridos.
 
 ## 📁 O que você encontrará aqui
-Projetos desenvolvidos em disciplinas como:
-
+### Projetos desenvolvidos em disciplinas como:
 - Lógica de Programação
 
 - Desenvolvimento Web
@@ -42,5 +41,5 @@ Projetos desenvolvidos em disciplinas como:
 ## 📌 Para visitantes
 Se você é um professor, avaliador, profissional de tecnologia, ou apenas tem interesse nos trabalhos desenvolvidos na CESAR School, fique à vontade para explorar os repositórios públicos desta organização. Cada projeto contém informações técnicas e contextuais sobre sua criação.
 
-📄 Licença
+## 📄 Licença
 Cada repositório pode conter uma licença específica. Na ausência dela, **considere o uso como restrito à visualização pública**.
