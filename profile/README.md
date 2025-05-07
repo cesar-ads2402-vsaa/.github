@@ -51,14 +51,6 @@ Cada repositório é mantido por um ou mais estudantes e pode conter:
 
 ---
 
-## 👥 Quem pode participar?
-
-- Estudantes do curso de ADS da CESAR School;
-- Grupos formados para atividades acadêmicas;
-- Estudantes que desejam publicar projetos individuais.
-
----
-
 ## 📌 Para visitantes
 
 Se você é um **professor**, **avaliador**, **profissional de tecnologia**, ou apenas tem interesse nos trabalhos desenvolvidos na CESAR School, fique à vontade para explorar os repositórios públicos desta organização. Cada projeto contém informações técnicas e contextuais sobre sua criação.
