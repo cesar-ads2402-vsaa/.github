@@ -40,12 +40,17 @@ Cada repositório é mantido por um ou mais estudantes e pode conter:
 
 | Nome             | GitHub                                                             | Período     | Tipo de Projetos |
 |------------------|--------------------------------------------------------------------|-------------|------------------|
-| Victor Simas     | [@victorsimasdev](https://github.com/victorsimasdev)               | 2º período  | Grupo            |
-| Julio Bezerra    | [@Juliobzr](https://github.com/Juliobzr)                           | 2º período  | Grupo            |
-| Rafael Farias    | [@rafaelFarias7](https://github.com/rafaelFarias7)                 | 2º período  | Grupo            |
-| Felipe Cisneiros | [@felipecisneiros](https://github.com/felipecisneiros)             | 2º período  | Grupo            |
-| Marina Lira      | [@mlrl2](https://github.com/mlrl2)                                 | 1º período  | Grupo            |
-| Ramom Aguiar     | [@RamomAguiar2004](https://github.com/RamomAguiar2004)             | 2º período  | Grupo            |
+| Victor Simas     | [@victorsimasdev](https://github.com/victorsimasdev)               | 3º período  | Grupo            |
+| Julio Bezerra    | [@Juliobzr](https://github.com/Juliobzr)                           | 3º período  | Grupo            |
+| Rafael Farias    | [@rafaelFarias7](https://github.com/rafaelFarias7)                 | 3º período  | Grupo            |
+| Felipe Cisneiros | [@felipecisneiros](https://github.com/felipecisneiros)             | 3º período  | Grupo            |
+| Marina Lira      | [@mlrl2](https://github.com/mlrl2)                                 | -  | Grupo            |
+| Ramom Aguiar     | [@RamomAguiar2004](https://github.com/RamomAguiar2004)             | 3º período  | Grupo            |
+| Arthur Lins     | [@ArthurLins00](https://github.com/ArthurLins00)             | 3º período  | Grupo            |
+| Paulo Henrique     | [@phabp](https://github.com/phabp)             | 3º período  | Grupo            |
+| Michelangelo Morais     | [@Mickeeyym](https://github.com/Mickeeyym)             | 3º período  | Grupo            |
+| Bruno Dornelas     | [@BrunoDornelas2](https://github.com/BrunoDornelas2)             | 3º período  | Grupo            |
+| Julia Veríssimo     | [@xjuveri](https://github.com/xjuveri)             | 3º período  | Grupo            |
 
 > Essa lista está sujeita à atualização conforme novos projetos forem desenvolvidos e integrantes forem adicionados.
 
