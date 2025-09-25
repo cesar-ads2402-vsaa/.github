@@ -1,6 +1,6 @@
 # Projetos Acadêmicos – CESAR School
 
-Este é um espaço dedicado aos projetos dos quais participei, junto com outros estudantes, durante o curso de Análise e Desenvolvimento de Sistemas (ADS) da [CESAR School](https://www.cesar.school/). Aqui estão reunidos trabalhos desenvolvidos em disciplinas, atividades em grupo e iniciativas individuais realizadas ao longo da nossa trajetória acadêmica.
+Este é um espaço dedicado aos projetos dos quais participei, junto com outros estudantes, além de atividades e materiais de estudos realizados durante o curso de Análise e Desenvolvimento de Sistemas (ADS) da [CESAR School](https://www.cesar.school/). Aqui estão reunidos trabalhos desenvolvidos em disciplinas, atividades em grupo e iniciativas individuais realizadas ao longo da nossa trajetória acadêmica.
 
 Nosso objetivo é tornar visível o que estamos aprendendo e construindo, promovendo a colaboração entre alunos, a criação de portfólios técnicos e a exposição de projetos para professores, recrutadores e o público interessado.
 
